@@ -222,3 +222,61 @@ span {
     background-color: #fff;
     color: #FF4A57;
 }
+
+.services {
+    height: 80vh;
+    margin: 5% 10%;
+    width: 80%;
+
+    border: 2px solid #00ff00;
+}
+
+.services h3 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.services h3 span {
+    color: #FF4A57;
+    display: inline-block;
+    margin: 5% 0;
+}
+
+.services .cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    row-gap: 1%;
+    column-gap: 1%;
+}
+
+.services .cards .card {
+    display: flex;
+    width: 30%;
+    border: 2px solid #00ff00;
+    flex-flow: column wrap;
+align-items: center;
+}
+
+.services .cards .card h3 {
+    font-size: 1.5rem;
+    margin: 5%;
+}
+
+.services .cards .card p {
+    color: #fff;
+    font-weight: 300;
+    margin: 0 5% 5% 5%;
+}
+
+.services .cards .card i {
+    margin-top: 5%;
+    font-size: 2rem;
+    padding: 5px;
+    border: 3px solid #FF4A57;
+    color: #FF4A57;
+    
+}
