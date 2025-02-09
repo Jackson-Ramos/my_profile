@@ -11,7 +11,10 @@
 }
 
 body {
-    background-color: #1F2235;
+    background: #1F2235 url('../img/icon-bg-edu1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -91,7 +94,7 @@ body {
     background: url('../img/img-bg.png');
     background-position: center;
     background-size: cover;
-    height: 700px;
+    min-height: 700px;
     justify-content: center;
     align-items: center;
 
@@ -228,19 +231,23 @@ span {
     margin: 5% 10%;
     width: 80%;
 
-    border: 2px solid #00ff00;
+    /* border: 2px solid #00ff00; */
 }
 
 .services h3 {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 3rem;
+}
+
+.services p {
+    color: #fff;
 }
 
 .services h3 span {
-    color: #FF4A57;
     display: inline-block;
+    color: #FF4A57;
     margin: 5% 0;
 }
 
@@ -248,35 +255,37 @@ span {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-content: center;
-    row-gap: 1%;
-    column-gap: 1%;
+    align-items: center;
+    gap: 3%;
 }
 
-.services .cards .card {
-    display: flex;
-    width: 30%;
-    border: 2px solid #00ff00;
-    flex-flow: column wrap;
-align-items: center;
+.services .container {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 20px;
+    justify-content: center;
 }
 
-.services .cards .card h3 {
-    font-size: 1.5rem;
-    margin: 5%;
+.card {
+    background: rgba(18, 18, 52 , .5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #FFF;
 }
 
-.services .cards .card p {
-    color: #fff;
-    font-weight: 300;
-    margin: 0 5% 5% 5%;
-}
-
-.services .cards .card i {
-    margin-top: 5%;
-    font-size: 2rem;
-    padding: 5px;
-    border: 3px solid #FF4A57;
+.icon {
+    font-family: 'FontAwesome';
+    font-size: 30px;
     color: #FF4A57;
-    
+    margin-bottom: 10px;
+    border: 2px solid #FF4A57;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.services .container .card h3{
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
 }
