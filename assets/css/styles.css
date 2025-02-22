@@ -398,3 +398,8 @@ textarea::placeholder {
     border-radius: 5px;
 
 }
+
+.btn:hover {
+    background-color: #fff;
+    color: #FF4A57;
+}
