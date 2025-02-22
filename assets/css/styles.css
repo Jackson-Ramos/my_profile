@@ -11,7 +11,7 @@
 }
 
 body {
-    background: #1F2235 url('../img/icon-bg-edu1.png');
+    background: #1F2235;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -222,6 +222,7 @@ span {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
+    justify-content: center;
     height: 100vh;
     margin: 0 10%;
     width: 80%;
@@ -305,11 +306,12 @@ span {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
+    justify-content: center;
     height: 100vh;
     width: 80%;
     margin: 0 auto;
 
-    border: 2px solid #00ff00;
+    /* border: 2px solid #00ff00; */
 }
 
 .portfolio .container {
@@ -338,9 +340,19 @@ span {
     height: 100vh;
     width: 80%;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 
+    /* border: 2px solid #00ff00; */
+}
 
-    border: 2px solid #00ff00;
+.contact .input {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 1%;
 }
 
 .contact .input input {
@@ -349,24 +361,40 @@ span {
     border: 1px solid rgba(255, 255, 255, 255);
     width: 30%;
     height: 45px;
+    color: #FFF;
+    /* padding: 0 10px; */
+    
 }
 
-.contact .input input::placeholder, textarea::placeholder {
+.contact .input input:focus {
+    border-color: #FF4A57;
+}
+
+.contact .input input::placeholder,
+textarea::placeholder {
     text-indent: 10px;
-}
-
-.contact .input {
-    display: flex;
-    flex-flow: row wrap;
-    gap: 3%;
-    align-items: center;
-    justify-content: center;
 }
 
 .contact textarea {
     background: transparent;
     border: 1px solid #FFF;
     margin: 3% auto 0;
-    width: 96%;
+    width: 92%;
     height: 150px;
+    color: #FFF;
+    padding: 10px;
+}
+
+.contact textarea:focus {
+    border-color: #FF4A57;
+}
+
+.btn {
+    padding: 14px 20px;
+    text-align: center;
+    margin: 5% auto;
+    background: #FF4A57;
+    color: #FFF;
+    border-radius: 5px;
+
 }
