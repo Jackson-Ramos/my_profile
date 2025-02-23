@@ -43,7 +43,7 @@ body {
 .logo a {
     font-size: 2rem;
     font-family: "Neonderthaw", serif;
-    color: #FF4A57;
+    color: #00ff00;
 }
 
 .navbar {
@@ -65,8 +65,8 @@ body {
 }
 
 .navbar a:hover {
-    color: #FF4A57;
-    border-bottom: 3px solid #FF4A57;
+    color: #00ff00;
+    border-bottom: 3px solid #00ff00;
 }
 
 .conteiner {
@@ -106,7 +106,7 @@ body {
 }
 
 .headeline h2 {
-    color: #FF4A57;
+    color: #00ff00;
     font-size: 1.5rem;
     font-weight: 900;
 }
@@ -128,8 +128,8 @@ body {
 }
 
 .social-media i {
-    color: #FF4A57;
-    border: 3px solid #FF4A57;
+    color: #00ff00;
+    border: 3px solid #00ff00;
     border-radius: 50%;
     padding: 15px;
     margin-right: 10px;
@@ -137,7 +137,7 @@ body {
 }
 
 .social-media i:hover {
-    background-color: #FF4A57;
+    background-color: #00ff00;
     color: #fff;
 }
 
@@ -207,7 +207,7 @@ span {
 .curriculum a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #FF4A57;
+    background-color: #00ff00;
     border-radius: 10px;
     color: #fff;
     margin-top: 20px;
@@ -215,7 +215,7 @@ span {
 
 .curriculum a:hover {
     background-color: #fff;
-    color: #FF4A57;
+    color: #00ff00;
 }
 
 .services {
@@ -248,7 +248,7 @@ span {
 .portfolio h3 span,
 .services h3 span {
     display: inline-block;
-    color: #FF4A57;
+    color: #00ff00;
 }
 
 .portfolio p,
@@ -259,7 +259,7 @@ span {
 .line {
     height: 2px;
     width: 7%;
-    background-color: #FF4A57;
+    background-color: #00ff00;
     margin: 0 auto 5%;
 }
 
@@ -289,9 +289,9 @@ span {
 .icon {
     font-family: 'FontAwesome';
     font-size: 30px;
-    color: #FF4A57;
+    color: #00ff00;
     margin-bottom: 10px;
-    border: 2px solid #FF4A57;
+    border: 2px solid #00ff00;
     padding: 10px;
     display: inline-block;
     border-radius: 5px;
@@ -367,7 +367,7 @@ span {
 }
 
 .contact .input input:focus {
-    border-color: #FF4A57;
+    border-color: #00ff00;
 }
 
 .contact .input input::placeholder,
@@ -386,14 +386,14 @@ textarea::placeholder {
 }
 
 .contact textarea:focus {
-    border-color: #FF4A57;
+    border-color: #00ff00;
 }
 
 .btn {
     padding: 14px 20px;
     text-align: center;
     margin: 5% auto;
-    background: #FF4A57;
+    background: #00ff00;
     color: #FFF;
     border-radius: 5px;
 
@@ -401,5 +401,5 @@ textarea::placeholder {
 
 .btn:hover {
     background-color: #fff;
-    color: #FF4A57;
+    color: #00ff00;
 }
