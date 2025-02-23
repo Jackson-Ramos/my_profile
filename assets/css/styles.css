@@ -363,7 +363,7 @@ span {
     height: 45px;
     color: #FFF;
     padding: 0 10px;
-    
+
 }
 
 .contact .input input:focus {
@@ -389,14 +389,15 @@ textarea::placeholder {
     border-color: #00ff00;
 }
 
-.btn {
-    padding: 14px 20px;
+.input .btn {
+    display: block;
+    padding: 14px 50px;
     text-align: center;
     margin: 5% auto;
     background: #00ff00;
     color: #FFF;
     border-radius: 5px;
-
+    font-weight: 600;
 }
 
 .btn:hover {

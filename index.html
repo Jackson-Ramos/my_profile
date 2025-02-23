@@ -205,17 +205,17 @@
         <h3>Contact <span>us</span></h3>
         <div class="line"></div>
 
-        <div class="input">
+        <form class="input" id="message_form" action="" method="POST">
 
             <input type="text" name="name" id="name" placeholder="Name">
             <input type="email" name="email" id="email" placeholder="E-mail">
             <input type="text" name="subject" id="subject" placeholder="Subject">
 
-        </div>
+            <textarea name="message" id="message" placeholder="Your Message"></textarea>
 
-        <textarea name="message" id="message" placeholder="Your Message"></textarea>
+            <a class="btn" onclick="document.getElementById('message_form').submit(); return false;">Enviar</a>
 
-        <a class="btn" href="#">Send Message</a>
+        </form>
 
     </section>
 
