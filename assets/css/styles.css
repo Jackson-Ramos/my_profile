@@ -356,15 +356,23 @@ span {
 }
 
 .contact .input input {
-    background: transparent;
+    background: transparent !important;
     outline: none;
     border: 1px solid rgba(255, 255, 255, 255);
     width: 30%;
     height: 45px;
-    color: #FFF;
+    color: #FFF !important;
     padding: 0 10px;
 
 }
+
+.contact .input input:-webkit-autofill {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset !important;
+    transition: background-color 5000s ease-in-out 0s; 
+    color: white !important; /* Força o texto a continuar branco */
+    -webkit-text-fill-color: white !important; /* Corrige a cor do texto no Chrome */
+  }
 
 .contact .input input:focus {
     border-color: #00ff00;
@@ -390,14 +398,15 @@ textarea::placeholder {
 }
 
 .input .btn {
-    display: block;
     padding: 14px 50px;
     text-align: center;
     margin: 5% auto;
     background: #00ff00;
     color: #FFF;
+    font-size: 1.2rem;
     border-radius: 5px;
     font-weight: 600;
+    border: none;
 }
 
 .btn:hover {

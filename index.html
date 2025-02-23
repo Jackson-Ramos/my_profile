@@ -205,13 +205,14 @@
 
         <form class="input" id="message_form" action="" method="POST">
 
-            <input type="text" name="name" id="name" placeholder="Name">
-            <input type="email" name="email" id="email" placeholder="E-mail">
-            <input type="text" name="subject" id="subject" placeholder="Subject">
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+            <input type="text" name="subject" id="subject" placeholder="Subject" required>
 
-            <textarea name="message" id="message" placeholder="Your Message"></textarea>
+            <textarea name="message" id="message" placeholder="Your Message" required></textarea>
 
-            <a class="btn" onclick="document.getElementById('message_form').submit(); return false;">Enviar</a>
+            <!-- <a class="btn" onclick="document.getElementById('message_form').submit(); return false;">Enviar</a> -->
+            <button class="btn" type="submit">Enviar</button>
 
         </form>
 
