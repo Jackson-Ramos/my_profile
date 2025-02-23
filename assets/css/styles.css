@@ -15,7 +15,6 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .header {
@@ -25,8 +24,6 @@ body {
     width: 100%;
     height: 10vh;
     background-color: #1F2235;
-
-    /* border: 2px solid #00ff00; */
 }
 
 .logo {
@@ -34,10 +31,6 @@ body {
     flex: 30%;
     align-items: center;
     justify-content: center;
-
-    /* border: 2px solid #00ff00; */
-
-
 }
 
 .logo a {
@@ -51,17 +44,12 @@ body {
     flex: 60%;
     align-items: center;
     justify-content: end;
-
     margin-right: 10%;
-
-    /* border: 2px solid #00ff00; */
 }
 
 .navbar a {
     padding: 12px 19px;
     color: #fff;
-
-
 }
 
 .navbar a:hover {
@@ -75,8 +63,6 @@ body {
     height: 90vh;
     width: auto;
     margin-top: 10vh;
-
-    /* border: 2px solid #00ff00; */
 }
 
 .headeline {
@@ -84,8 +70,6 @@ body {
     flex: 40%;
     justify-content: center;
     flex-flow: column wrap;
-
-    /* border: 2px solid #00ff00; */
 }
 
 .img-headeline {
@@ -97,8 +81,6 @@ body {
     min-height: 700px;
     justify-content: center;
     align-items: center;
-
-    /* border: 2px solid #00ff00; */
 }
 
 .img-headeline img {
@@ -148,13 +130,10 @@ body {
     margin: 10% 10%;
     color: #fff;
     align-items: center;
-
-    /* border: 2px solid #00ff00; */
 }
 
 .img-container {
     flex: 40%;
-
 }
 
 .infor-container {
@@ -226,8 +205,6 @@ span {
     height: 100vh;
     margin: 0 10%;
     width: 80%;
-
-    /* border: 2px solid #00ff00; */
 }
 
 .title {
@@ -310,8 +287,6 @@ span {
     height: 100vh;
     width: 80%;
     margin: 0 auto;
-
-    /* border: 2px solid #00ff00; */
 }
 
 .portfolio .container {
@@ -342,8 +317,6 @@ span {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-
-    /* border: 2px solid #00ff00; */
 }
 
 .contact .input {
@@ -363,7 +336,6 @@ span {
     height: 45px;
     color: #FFF !important;
     padding: 0 10px;
-
 }
 
 .contact .input input:-webkit-autofill {
