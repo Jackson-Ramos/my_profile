@@ -1,0 +1,72 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .header .logo {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10%;
+    }
+
+    .conteiner .headeline {
+        height: auto;
+        margin: 0 5%;
+        text-align: center;
+        text-align: left;
+        margin-top: 15%;
+    }
+
+    .conteiner .img-headeline {
+        min-height: 700px;
+        margin: 5%;
+        object-fit: fill;
+        height: auto;
+    }
+
+    /** Ok */
+
+    .about {
+        display: flex;
+        flex-direction: row;
+        margin:0 auto;
+        margin-top: 65%;
+        height: auto;
+        width: 80%;
+    }
+
+    .about .img-container {
+        display: none;
+    }
+
+    .about .curriculum {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    /** Ok */
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 10%;
+        height: auto;
+        width: 90%;
+    }
+
+    .services .container {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        gap: 10px;
+        justify-content: center;
+        
+    }
+
+    .services .card {
+        min-height: 300px;
+    }
+}
