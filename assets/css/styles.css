@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
 
 * {
     margin: 0;
@@ -35,7 +36,9 @@ body {
 
 .logo a {
     font-size: 2rem;
-    font-family: "Neonderthaw", serif;
+    /* font-family: "Neonderthaw", serif; */
+    font-family: "Plaster", system-ui;
+
     color: #00ff00;
 }
 
@@ -384,4 +387,27 @@ textarea::placeholder {
 .btn:hover {
     background-color: #fff;
     color: #00ff00;
+}
+
+#topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #0f0;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: 900;
+    cursor: pointer;
+    display: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+#topBtn:hover {
+    background-color: #0f0;
+    transform: scale(1.1);
 }
