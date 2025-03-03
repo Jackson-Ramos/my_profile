@@ -1,9 +1,12 @@
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 810px) and (max-width: 992px) {
 
-    .header .logo {
-        display: flex;
-        justify-content: end;
-        align-items: center;
+    .header .navbar {
+        margin-right: 0;
+    }
+
+    .header .logo a {
+        text-align: center;
+        font-size: 1.5rem;
     }
 
     .conteiner {
@@ -32,7 +35,7 @@
     .about {
         display: flex;
         flex-direction: row;
-        margin:0 auto;
+        margin: 0 auto;
         margin-top: 65%;
         height: auto;
         width: 80%;
@@ -49,7 +52,8 @@
 
     /** Ok */
 
-    .services {
+    .services,
+    .portfolio {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
@@ -58,15 +62,28 @@
         width: 90%;
     }
 
-    .services .container {
+    .services .container,
+    .portfolio .container {
         display: grid;
         grid-template-columns: repeat(2, 50%);
         gap: 10px;
         justify-content: center;
-        
+
     }
 
-    .services .card {
+    .services .card,
+    .portfolio .container .card {
         min-height: 300px;
+    }
+
+    .contact h3,
+    .portfolio h3,
+    .services h3 {
+        font-size: 2rem;
+    }
+
+    .input .btn {
+        padding: 12px 25px;
+        font-size: 1rem;
     }
 }
