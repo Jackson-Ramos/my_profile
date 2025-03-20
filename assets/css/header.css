@@ -3,9 +3,7 @@
 header {
     width: 100%;
     padding: 28px 8%;
-    position: sticky;
     z-index: 100;
-    top: 0;
     background-color: #1F2235;
 }
 
@@ -15,7 +13,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 #nav_logo {

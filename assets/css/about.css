@@ -1,0 +1,44 @@
+#about-me {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+#about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1%;
+
+
+    /* border: 1px solid #0f0; */
+}
+
+#about-image {
+    min-width: 33%;
+}
+
+
+#about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 33%;
+}
+
+.about-text h2{
+    color: #0f0;
+    margin: 10px;
+}
+
+.about-text p{
+    display: flex;
+    color: #fff;
+    margin-bottom: 10px;
+    
+}
