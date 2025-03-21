@@ -3,8 +3,10 @@
 header {
     width: 100%;
     padding: 28px 8%;
-    z-index: 100;
+    position: sticky;
+    top: 0;
     background-color: #1F2235;
+    z-index: 9999;
 }
 
 
@@ -107,7 +109,9 @@ header {
         border-radius: 10px;
         backdrop-filter: blur(10px);
         background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(15px);
         box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+        z-index: 999;
     }
 
     #mobile_nav_list a {
