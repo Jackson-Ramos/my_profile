@@ -29,7 +29,6 @@
     font-weight: 200;
 }
 
-
 .social-media {
     display: flex;
     flex-direction: row;
@@ -84,7 +83,6 @@
     color: #fff;
 }
 
-
 .social-media-btn i {
     font-weight: 900;
 }
@@ -100,7 +98,6 @@
     object-fit: cover;
     border-radius:  0 0 50% 50%;
 }
-
 
 .shape {
     position: absolute;
