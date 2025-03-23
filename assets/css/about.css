@@ -1,9 +1,10 @@
 #about-me {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 #about-container {
@@ -49,19 +50,6 @@
 
     #about-image {
         display: none;
-    }
-
-
-}
-
-@media screen and (max-width: 400px) {
-
-    #about-container {
-        margin-top: 750px;
-    }
-
-    #about-text {
-        min-width: 100%;
     }
 
 
