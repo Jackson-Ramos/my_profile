@@ -106,12 +106,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 650px; /* Ajuste conforme necessário */
-    height: 650px; /* Ajuste conforme necessário */
+    width: 100%; 
+    height: 100%; 
     background-color: #0f0;
     transform: translate(-50%, -50%); /* Centraliza a forma */
     border-radius: 68% 32% 25% 71% / 47% 38% 62% 52%; /* Deixa a forma arredondada */
-    z-index: -1; /* Garante que fique atrás da imagem */
+    z-index: -1;
 }
 
 @media screen and (max-width: 1170px) {
