@@ -12,9 +12,6 @@ body {
     background-color: #1F2235;
 }
 
-html, body {
-    /* overflow-x: hidden; */
-}
 
 section {
     padding: 28px 8%;
@@ -34,10 +31,12 @@ section {
     cursor: pointer;
     display: none;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-    transition: opacity 0.3s, transform 0.3s;
+    opacity: .5;
+    transition: all 0.3s, transform 0.3s;
 }
 
 #topBtn:hover {
     background-color: #fff;
     transform: scale(1.1);
+    opacity: 1;
 }
