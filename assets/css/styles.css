@@ -40,7 +40,7 @@ section {
     opacity: 1;
 }
 
-#contact-btn {
+/* #contact-btn {
     display: flex;
     align-items: center;
     position: relative;
@@ -74,9 +74,82 @@ section {
     color: #fff;
 }
 
-@media screen and (max-width: 1300px){
-    
-    #contact-btn{
+#contact-btn:hover .contact-btn-title {
+    opacity: 0;
+}
+
+#contact-btn .icon {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: absolute;
+}
+
+#contact-btn:hover .icon {
+    opacity: 1;
+    transform: translateX(1);
+} */
+#contact-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo */
+    position: relative;
+    background: transparent;
+    margin-left: 50px;
+    padding: 10px 35px;
+    border: 2px solid #0f0;
+    color: #0f0;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out; /* Transição suave de cor */
+}
+
+#contact-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #0f0;
+    transition: left 0.4s ease-in-out;
+    z-index: -1; /* Garante que fique atrás do botão */
+}
+
+#contact-btn:hover:before {
+    left: 0;
+}
+
+#contact-btn:hover {
+    color: #fff;
+}
+
+#contact-btn .contact-btn-title {
+    transition: opacity 0.3s ease-in-out;
+}
+
+#contact-btn:hover .contact-btn-title {
+    opacity: 0;
+}
+
+#contact-btn .icon {
+    opacity: 0;
+    transform: scale(0.6);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: absolute;
+    font-size: 26px;
+}
+
+#contact-btn:hover .icon {
+    opacity: 1;
+    transform: scale(1); /* Corrigido para um efeito de crescimento suave */
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    #contact-btn {
         margin-left: 10px;
         padding: 10px 25px;
     }
