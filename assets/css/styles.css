@@ -18,10 +18,10 @@ section {
 
 #topBtn {
     position: fixed;
-    bottom: 40px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
+    bottom: 30px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
     background-color: rgb(34, 60, 137);
     border: none;
     border-radius: 50%;
@@ -40,55 +40,7 @@ section {
     opacity: 1;
 }
 
-/* #contact-btn {
-    display: flex;
-    align-items: center;
-    position: relative;
-    background: transparent;
-    margin-left: 50px;
-    padding: 10px 35px;
-    border: 2px solid #0f0;
-    color: #0f0;
-    border-radius: 10px;
-    cursor: pointer;
-    overflow: hidden;
-}
 
-#contact-btn:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: #0f0;
-    transition: left 0.4s ease-in-out;
-    z-index: -1;
-}
-
-#contact-btn:hover:before {
-    left: 0;
-}
-
-#contact-btn:hover {
-    color: #fff;
-}
-
-#contact-btn:hover .contact-btn-title {
-    opacity: 0;
-}
-
-#contact-btn .icon {
-    opacity: 0;
-    transform: scale(0.5);
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    position: absolute;
-}
-
-#contact-btn:hover .icon {
-    opacity: 1;
-    transform: translateX(1);
-} */
 #contact-btn {
     display: flex;
     align-items: center;
